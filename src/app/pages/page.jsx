@@ -33,6 +33,7 @@ const telegram = () =>{
             },
             body: JSON.stringify({
                 chat_id: '1250269533',
+                
             }),
             })
             const data = await response.json();
